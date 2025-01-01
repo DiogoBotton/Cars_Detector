@@ -1,5 +1,5 @@
 # Cars_Detector
-Repositório com o objetivo de aprender a como fazer um modelo de detecção de carros sem utilizar modelos pré-treinados.
+Repositório com o objetivo de aprender a como fazer um modelo de detecção de carros.
 
 **OBS.**
 
