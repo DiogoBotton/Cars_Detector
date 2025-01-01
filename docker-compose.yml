@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  labelstudio:
+    image: heartexlabs/label-studio:latest # Cria uma imagem do label studio com a versão mais recente
+    container_name: labelstudio
+    ports:
+      - "8080:8080"  # Mapeia a porta 8080 do host para a porta 8080 do container
+    volumes:
+      - ./data:/label-studio/data  # Monta um volume local para persistência de dados
+    environment:
+      - LABEL_STUDIO_USERNAME=wolf@email.com # Necessário criar um email válido
+      - LABEL_STUDIO_PASSWORD=Wolf@123 # Necessário criar uma senha válida com caracteres especiais, maiusculas e minusculas para funcionar
+    restart: unless-stopped
