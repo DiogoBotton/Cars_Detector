@@ -1,0 +1,4 @@
+TODO:
+
+- Tentar converter os labels do dataset que estão no tipo YOLO para 
+pixels (se for possível) para ter um dataset maior
